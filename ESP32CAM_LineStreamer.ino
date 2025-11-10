@@ -46,7 +46,7 @@
 static const framesize_t FRAME_SIZE = FRAMESIZE_QVGA; // 320x240 (khớp Python)
 static const int JPEG_QUALITY = 12;   // 10~20 (nhỏ = chất lượng cao, kích thước lớn)
 static const int FB_COUNT     = 2;    // 2 khung: mượt hơn
-static const uint8_t TARGET_FPS = 12; // gửi khoảng 12 FPS là hợp lý
+static const uint8_t TARGET_FPS = 6; // gửi khoảng 12 FPS là hợp lý
 
 WiFiClient client;
 #if ENABLE_UDP_CONTROL
