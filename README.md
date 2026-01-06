@@ -4,11 +4,11 @@ nhận ảnh từ ESP32 qua TCP và gửi góc lái điều khiển qua UDP theo
 
 ## Cấu trúc thư mục
 .
- main.py          # Khởi chạy hệ thống
- config.py        # Cấu hình mạng, YOLO, PID
- detector.py      # YOLO detection / segmentation
- receiver.py      # Nhận ảnh TCP từ ESP32
- controller.py    # PID controller
-sender.py        # Gửi lệnh điều khiển UDP
- best.pt          # YOLO trained model
-README.md
+├── main.py          # Khởi chạy hệ thống <br>
+├── config.py        # Cấu hình mạng, YOLO, PID <br>
+├── detector.py      # YOLO detection / segmentation <br>
+├── receiver.py      # Nhận ảnh TCP từ ESP32 <br>
+├── controller.py    # PID controller <br>
+├── sender.py        # Gửi lệnh điều khiển UDP <br>
+├── best.pt          # YOLO trained model <br>
+└── README.md
