@@ -233,7 +233,7 @@ void loop() {
       int angle = 0;
       if (sscanf(buf, "ANG:%d", &angle) == 1) {
         Serial.printf("UDP ANG received: %d\n", angle);
-        // TODO: Điều khiển động cơ/servo của bạn ở đây (nếu ESP32-CAM gánh luôn).
+        
       }
     }
   }
