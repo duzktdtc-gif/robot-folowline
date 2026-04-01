@@ -120,15 +120,9 @@ void loop() {
         Serial.printf("CMD: %-8s =>  ANG: %-3d  =>  L: %-3d | R: %-3d\n", buf, angle, speed_L, speed_R);
         
       } else {
-         // Nếu nhận được gói tin nhưng không đúng định dạng ANG
          Serial.print("Unknown format: ");
          Serial.println(buf);
       }
-        // Debug (Nếu cần kiểm tra thì bỏ comment dòng dưới)
-        // Serial.printf("ANG:%d -> L:%d R:%d\n", angle, speed_L, speed_R);
-      
     }
   }
-  
-  // Không cần delay, loop chạy càng nhanh càng tốt để bắt lệnh kịp thời
 }
